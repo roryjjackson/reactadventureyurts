@@ -19,8 +19,7 @@ const Header = () => {
                     <h1>ADVENTURE YURTS</h1>
                     <p>We build CAD designed yurts using commercial machinery.</p>
                     <div>
-                        <a href="/">Product</a>
-                        <a href="/">Contact</a>
+                        <a href="/">Find out more</a>
                     </div>
                 </div>
             </div>

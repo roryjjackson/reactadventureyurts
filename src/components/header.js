@@ -1,18 +1,17 @@
-import Link from 'next/link';
+// import Link from 'next/link';
 
 const Header = () => {
     return (
         <nav>
             <div>
                 <div className="header-logo">
-
                 </div>
                 <ul className="header-items">
                     <li>Home</li>
                     <li>The Design</li>
                     <li>Gallery</li>
                     <li>Pricing</li>
-                    <li>Contact</li>
+                    <li>Contact!</li>
                 </ul>
             </div>
             <div>
@@ -20,8 +19,8 @@ const Header = () => {
                     <h1>ADVENTURE YURTS</h1>
                     <p>We build CAD designed yurts using commercial machinery.</p>
                     <div>
-                        <Link>Product</Link>
-                        <Link>Contact</Link>
+                        <a href="/">Product</a>
+                        <a href="/">Contact</a>
                     </div>
                 </div>
             </div>

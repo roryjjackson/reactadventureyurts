@@ -1,3 +1,5 @@
+import ControlledCarousel from './gallery'
+
 const main = () => {
   return (
     <div>
@@ -21,8 +23,8 @@ const main = () => {
       </div>
       <div>
         <h3>Prices start from £12'999</h3>
-
       </div>
+      < ControlledCarousel />
     </div>
   )
 }

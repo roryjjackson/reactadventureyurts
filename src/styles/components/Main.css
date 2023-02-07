@@ -1,0 +1,50 @@
+.section1 {
+  position: relative;
+  height: 600px;
+}
+
+.parent {
+    padding: 50px 0 50px 50px;
+    position: absolute;
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 13vw);
+    grid-template-rows: repeat(3, 15vh);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: auto;
+  }
+
+  .div1 {
+    grid-area: 1 / 1 / 3 / 4;
+    border-top-left-radius: 30px;
+    overflow: hidden;
+  }
+
+  .div1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .div2 {
+    grid-area: 1 / 4 / 3 / 8;
+  }
+
+  .div3 {
+    grid-area: 3 / 1 / 4 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    border-bottom-left-radius: 30px;
+  }
+
+  .div4 { grid-area: 3 / 4 / 4 / 8; }
+
+  .div4 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }

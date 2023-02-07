@@ -11,9 +11,3 @@ h3 {
 p {
   margin: 0 !important;
 }
-
-.centered-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

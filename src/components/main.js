@@ -26,7 +26,7 @@ const main = () => {
         </div>
       </div>
       < Design/>
-      <div>
+      <div class="prices">
         <h3>Prices start from £12'999</h3>
       </div>
       < ControlledCarousel />

@@ -1,59 +1,107 @@
 .section1 {
-  /* height: 500px; */
+  margin: 6vw 0 6vh 6vw;
 }
 
-.parent {
-  margin-top: 60px;
-  margin-left: 60px;
-    display: grid;
-    grid-auto-columns: 1fr;
-    grid-template-columns: 40% 60%;
-    grid-template-rows: 70% 30%;
-    gap: 0px 0px;
-    grid-template-areas:
-      "div1 div2"
-      "div3 div4";
-  }
+.top-section {
+  display: flex;
+}
 
-  .div1 {
-    grid-area: div1;
-    border-top-left-radius: 30px;
-    overflow: hidden;
-  }
+.bottom-section {
+  display: flex;
+}
 
-  .div1 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+.div1 {
+  height: 40vh;
+  width: 40vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  overflow: hidden;
+}
 
-  .div2 {
-    grid-area: div2;
-  }
+.div1 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
-  .div3 {
-    grid-area: div3;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: rgb(25, 25, 25);
-    border-bottom-left-radius: 30px;
-  }
+.div2 {
+  height: 40vh;
+  width: 54vw;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .div4 { grid-area: div4; }
+#upper-text {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .div4 img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-  }
+#upper-text h4 {
+  font-size: 1.6em;
+  font-weight: 400;
+}
 
-  .prices {
-    background-color: rgb(25, 25, 25);
-    height: 150px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+#upper-text p {
+  font-size: .7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mid-text {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 0;
+}
+
+#lower-text {
+  justify-content: space-between;
+  display: flex;
+  padding: 20px;
+}
+
+#lower-text p {
+  font-size: .7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.div3 {
+  background-color: #d4d7d6;
+  width: 40vw;
+  height: 10vh;
+  border-bottom-left-radius: 10px;
+}
+
+.div4 {
+  color: white;
+  background-image: linear-gradient(to bottom right, #080e00, #346400);
+  box-shadow:
+    inset 60px 0 120px #080e00,  /* left magenta */
+    inset -60px 0 120px #346400; /* right cyan */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  width: 54vw;
+}
+
+.div4 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prices {
+  background-color: rgb(25, 25, 25);
+  height: 150px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

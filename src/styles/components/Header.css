@@ -31,3 +31,7 @@ nav {
 .title-container {
   padding: 100px 0;
 }
+
+.title-container h1 {
+  padding-bottom: 100px;
+}

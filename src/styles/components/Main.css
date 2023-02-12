@@ -80,10 +80,10 @@
 
 .div4 {
   color: white;
-  background-image: linear-gradient(to bottom right, #080e00, #346400);
+  /* background-image: linear-gradient(to bottom right, #080e00, #346400); */
   box-shadow:
-    inset 60px 0 120px #080e00,  /* left magenta */
-    inset -60px 0 120px #346400; /* right cyan */
+    inset 60px 0 120px #080e00,
+    inset -60px 0 120px #346400;
   display: flex;
   justify-content: center;
   align-items: center;

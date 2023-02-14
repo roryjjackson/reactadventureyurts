@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karma&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Montserrat:wght@400;800&display=swap');
 
 .App {
   background-color: #e3e3e3;
@@ -23,6 +23,7 @@ h2 {
 
 h3 {
   margin: 0 !important;
+  font-family: 'Karma', serif;
 }
 
 h4 {

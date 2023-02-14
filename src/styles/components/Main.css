@@ -1,5 +1,5 @@
 .section1 {
-  margin: 6vw 0 6vh 6vw;
+  margin: 6vh 0 6vh 6vw;
 }
 
 .top-section {
@@ -16,27 +16,17 @@
   width: 40vw;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   overflow: hidden;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
   background-size: cover;
   box-shadow: 0 5px 10px rgba(0,0,0,0.22);
 }
 
-.div1 h3 {
-  position: absolute;
-  padding-right: 10px;
-  top: 10px;
-  left: 10px;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 22px;
-  font-weight: bold;
-}
-
 .div1 p {
   color: white;
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   opacity: .7;
 }
@@ -54,25 +44,26 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 #upper-text h4 {
-  font-size: 1.6em;
-  font-weight: 400;
+  font-size: 2em;
   margin-bottom: 0;
+  text-align: left;
 }
 
 #upper-text p {
-  font-size: .7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: .8em;
+  text-align: left;
 }
 
 #mid-text {
-  font-weight: bold;
-  font-size: 2.5em;
-  margin: 5px;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #lower-text {
@@ -82,15 +73,19 @@
 }
 
 #lower-text p {
-  font-size: .7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: .8em;
   padding-right: 30px;
+  max-width: 160px;
+  text-align: left;
+}
+
+#lower-text h3 {
+  text-align: left;
+  font-size: 2em;
+  align-items: baseline;
 }
 
 .div3 {
-  background-color: #d4d7d6;
   width: 40vw;
   height: 10vh;
   border-bottom-left-radius: 10px;
@@ -98,16 +93,21 @@
 
 .div4 {
   color: white;
-  background-image: linear-gradient(270deg,#606c38,#283618);
+  background-image: linear-gradient(270deg,#08344e ,#293b30);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
   width: 54vw;
+  border-bottom-left-radius: 10px;
+
 }
 
 .div4 h4 {
- text-decoration: underline;
+ /* text-decoration: underline; */
+ display: flex;
+ justify-content: center;
+ margin-bottom: 0;
 }
 
 .prices {
@@ -116,12 +116,12 @@
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 #right-arrow {
-  padding-left: 10px;
-  font-size: 1.2em;
+  padding-left: 20px;
+  font-size: 1em;
 }
 
 #location-dot {

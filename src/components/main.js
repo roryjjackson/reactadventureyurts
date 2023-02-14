@@ -10,8 +10,8 @@ const main = () => {
       <div class="section1">
         <div class="top-section">
           <div class="div1">
-            <h3>Designed and built in the North East, UK.</h3>
-            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, River Tyne</p>
+            {/* <h3>Designed and built in the North East, UK.</h3> */}
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
           </div>
           <div class="div2">
             <div>
@@ -21,8 +21,8 @@ const main = () => {
               </div>
               <h4 id="mid-text">FAMILY RUN BUSINESS</h4>
               <div id="lower-text">
-                <p>Fully customizable and some more text here</p>
-                <h3>Amazing product</h3>
+                <p>Fully customizable, unique outdoor living</p>
+                <h3>Escape the house</h3>
               </div>
             </div>
           </div>
@@ -31,8 +31,7 @@ const main = () => {
           <div class="div3">
           </div>
           <div class="div4">
-            <h4>Read more! </h4>
-            < FontAwesomeIcon icon={faArrowRight} id="right-arrow"></FontAwesomeIcon>
+            <h4>Contact us <FontAwesomeIcon icon={faArrowRight} id="right-arrow"></FontAwesomeIcon></h4>
           </div>
         </div>
       </div>

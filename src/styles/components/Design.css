@@ -1,4 +1,8 @@
 .design-container {
+  /* background: linear-gradient(217deg, #346400, rgba(255,0,0,0) 70.71%),
+              linear-gradient(127deg, #346400, rgba(0,255,0,0) 70.71%),
+              linear-gradient(336deg, #346400, rgba(0,0,255,0) 70.71%); */
+  background: linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -23,12 +27,12 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
+  border-bottom: solid black 1px;
 }
 
-.design-list-item img {
-  height: 100%;
-  width: 120px;
-  object-fit: cover;
+.number-icon {
+  opacity: .3;
+  height: 70px;
 }
 
 .design-list-info {

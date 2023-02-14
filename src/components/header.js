@@ -23,7 +23,7 @@ const Header = () => {
             <div class="title-container">
               <div class="title-block">
                 <div>
-                  <h1>ADVENTURE YURTS</h1>
+                  <h1>Adventure Yurts</h1>
                   <h2>Round, insulated and durable.</h2>
                 </div>
                 <div class="lets-go">

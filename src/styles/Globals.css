@@ -1,13 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Montserrat&display=swap');
+
+.App {
+  background-color: #e3e3e3;
+}
+
 h1 {
-  color: white;
+  background: -webkit-linear-gradient(right , rgb(255, 255, 255), rgb(179, 179, 179));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 6em !important;
-  font-weight: 700;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  background: -webkit-linear-gradient(right , rgb(241, 241, 241), rgb(211, 211, 211));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h3 {
   margin: 0 !important;
 }
 
+h4 {
+  font-family: 'Karma', serif;
+}
+
+h5 {
+  font-family: 'Karma', serif;
+}
+
+h6 {
+  font-family: 'Karma', serif;
+}
+
 p {
   margin: 0 !important;
+  font-family: 'Karma', serif;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+}
+
+li {
+  font-family: 'Montserrat', sans-serif;
 }

@@ -5,7 +5,13 @@
 
 .header-logo {
   margin: 30px;
-  color: white;
+}
+
+.header-logo p {
+  background: -webkit-linear-gradient(right , rgb(241, 241, 241), rgb(146, 146, 146));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header-items {
@@ -27,7 +33,8 @@ nav {
   display: flex;
   justify-content: space-between;
   margin-right: 10vw;
-
+  position: relative;
+  top: 50px;
 }
 
 .slogan-block {
@@ -80,8 +87,9 @@ nav {
 #lets-go-btn {
   padding: 25px;
   color: white;
-  border: solid rgb(210, 163, 8) 5px;
-  border-radius: 50%;
+  border: solid 5px transparent;
+  background: linear-gradient(rgb(34, 34, 34), rgb(42, 42, 42)) padding-box,
+  linear-gradient(to right, #e2ba50, #dcc585) border-box;  border-radius: 50%;
   margin-right: 10vw;
   height: 110px;
   width: 110px;
@@ -101,7 +109,6 @@ nav {
   height: 40px;
   width: 40px;
   border: solid white 1px;
-  /* background-color: rgba(0, 0, 0, 0.633); */
   border-radius: 50%;
   opacity: .7;
 }

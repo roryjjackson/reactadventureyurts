@@ -7,7 +7,7 @@ import { faArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 const main = () => {
   return (
     <div>
-      <div class="section1">
+      <div id="section1">
         <div class="top-section">
           <div class="div1">
             {/* <h3>Designed and built in the North East, UK.</h3> */}
@@ -36,6 +36,8 @@ const main = () => {
         </div>
       </div>
       < Design/>
+      < ControlledCarousel />
+
       <div class="prices">
         <h3>Prices start from £12'999</h3>
       </div>

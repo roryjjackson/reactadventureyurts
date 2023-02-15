@@ -1,5 +1,9 @@
-.section1 {
-  margin: 6vh 0 6vh 6vw;
+#section1 {
+  margin: 10vh 0 10vh 6vw;
+}
+
+#section2 {
+  display: none;
 }
 
 .top-section {
@@ -20,7 +24,7 @@
   overflow: hidden;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
   background-size: cover;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.42);
 }
 
 .div1 p {
@@ -99,12 +103,11 @@
   align-items: center;
   height: 10vh;
   width: 54vw;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.42);
   border-bottom-left-radius: 10px;
-
 }
 
 .div4 h4 {
- /* text-decoration: underline; */
  display: flex;
  justify-content: center;
  margin-bottom: 0;

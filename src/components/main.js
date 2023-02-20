@@ -3,6 +3,7 @@ import ControlledCarousel from './gallery';
 import '../styles/components/Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from './ContactForm';
 
 const main = () => {
   return (
@@ -10,7 +11,6 @@ const main = () => {
       <div id="section1">
         <div class="top-section">
           <div class="div1">
-            {/* <h3>Designed and built in the North East, UK.</h3> */}
             <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
           </div>
           <div class="div2">
@@ -45,6 +45,7 @@ const main = () => {
         <h3 id="subheader2">Pricing</h3>
         <p>Our guideline pricing table</p>
       </div>
+      < ContactForm/>
     </div>
   )
 }

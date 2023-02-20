@@ -1,0 +1,12 @@
+.form-label {
+  background: -webkit-linear-gradient(right , rgb(86, 86, 86), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button.btn.btn-danger {
+  color: white;
+  background-color: black;
+  border: solid #e2ba50 3px;
+}

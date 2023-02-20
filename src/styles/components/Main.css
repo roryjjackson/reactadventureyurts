@@ -130,3 +130,21 @@
 #location-dot {
   padding-right: 10px;
 }
+
+.subheader-container {
+  padding: 50px 0;
+}
+
+#subheader1 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+#subheader2 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}

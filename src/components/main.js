@@ -35,13 +35,16 @@ const main = () => {
           </div>
         </div>
       </div>
-      < Design/>
       < ControlledCarousel />
-
-      <div class="prices">
-        <h3>Prices start from £12'999</h3>
+      <div class="subheader-container">
+        <h2 id="subheader1">Our process timeline</h2>
+        <p>Take a closer look at how we deliver the product</p>
       </div>
-      < ControlledCarousel />
+      < Design/>
+      <div class="subheader-container">
+        <h3 id="subheader2">Pricing</h3>
+        <p>Our guideline pricing table</p>
+      </div>
     </div>
   )
 }

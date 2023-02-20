@@ -4,6 +4,7 @@
   justify-content: space-evenly;
   align-items: center;
   color: white;
+  padding: 30px 0;
 }
 
 .design-list-item {
@@ -12,7 +13,11 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
-  border-bottom: solid black 1px;
+  border-bottom: solid rgba(255, 255, 255, 0.217) 1px;
+}
+
+#design-list-item4 {
+  border-bottom: none !important;
 }
 
 .number-icon {
@@ -41,21 +46,30 @@
   font-weight: bold;
   margin: 0;
   text-align: left;
+  background: -webkit-linear-gradient(right , rgb(255, 255, 255), rgb(179, 179, 179));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .design-info {
   width: 50vw;
-  border: solid rgba(255, 255, 255, 0.2) 1px;
 }
 
 .design-header {
+  background-color: rgba(255, 255, 255, 0.078);
   padding: 20px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-bottom: solid rgba(255, 255, 255, 0.2) 1px;
+  border-radius: 10px 10px 0 0;
+}
+
+.design-header h4 {
+  margin-bottom: 0;
 }
 
 .design-data {
   padding: 30px;
+  background-color: rgba(255, 255, 255, 0.018);
+  border-radius: 0 0 10px 10px;
 }

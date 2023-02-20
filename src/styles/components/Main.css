@@ -167,3 +167,9 @@
   font-size: 4em;
   text-align: left;
 }
+
+#image1 {
+  height: 500px;
+  width: 100vw;
+  object-fit: cover;
+}

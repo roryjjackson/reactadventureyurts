@@ -4,7 +4,7 @@ import '../styles/components/Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './ContactForm';
-
+import BasicExample from './Table';
 const main = () => {
   return (
     <div>
@@ -46,6 +46,8 @@ const main = () => {
         <p>Our guideline pricing table</p>
       </div>
 
+      < BasicExample />
+      <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
       < ContactForm/>
     </div>
   )

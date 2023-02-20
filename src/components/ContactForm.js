@@ -18,7 +18,7 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <div class="xvc">
+    <div class="get-in-touch">
       <div class="subheader4-container">
         <h3 id="subheader4">Don't be shy, get in touch!</h3>
       </div>

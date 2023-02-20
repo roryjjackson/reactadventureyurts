@@ -1,0 +1,11 @@
+footer {
+  background-image: linear-gradient(270deg,#08344e ,#293b30);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-top: solid rgba(255, 255, 255, 0.241) 1px;
+}
+
+footer p {
+  padding: 20px;
+}

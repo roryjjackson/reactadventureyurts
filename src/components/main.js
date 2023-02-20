@@ -45,6 +45,7 @@ const main = () => {
         <h3 id="subheader2">Pricing</h3>
         <p>Our guideline pricing table</p>
       </div>
+
       < ContactForm/>
     </div>
   )

@@ -25,7 +25,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669387106/pexels-zh-xrong-3733588_g07t4y.jpg"
+            src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281728/pexels-quintin-gellar-313776_dpapc6.jpg"
             alt="Second slide"
           />
 
@@ -37,7 +37,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669387106/pexels-zh-xrong-3733588_g07t4y.jpg"
+            src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281726/pexels-pixabay-277696_jjhe6d.jpg"
             alt="Second slide"
           />
 

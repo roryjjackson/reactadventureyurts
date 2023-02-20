@@ -1,8 +1,10 @@
+import '../styles/components/Footer.css'
+
 const Footer = () => {
     return (
         <footer>
-            <p>This is the footer</p>
             <p>Copyright @AdventureYurts</p>
+            <p>Adventure Yurts</p>
         </footer>
     )
 }

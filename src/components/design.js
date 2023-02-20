@@ -47,10 +47,6 @@ const Design = () => {
           <br/>
           <h6>some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
         </div>
-        <div class="design-links">
-          {/* <a href="/">A button</a> */}
-          {/* <img src="/" alt="/"></img> */}
-        </div>
       </div>
 
       <div class="design-info" id="design-info2">
@@ -62,10 +58,6 @@ const Design = () => {
           <h5>Stage two, the panel insulation and construction</h5>
           <br/>
           <h6>some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
-        </div>
-        <div class="design-links">
-          {/* <a href="/">A button</a> */}
-          {/* <img src="/" alt="/"></img> */}
         </div>
       </div>
 
@@ -79,10 +71,6 @@ const Design = () => {
           <br/>
           <h6>some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
         </div>
-        <div class="design-links">
-          {/* <a href="/">A button</a> */}
-          {/* <img src="/" alt="/"></img> */}
-        </div>
       </div>
 
       <div class="design-info" id="design-info4">
@@ -94,10 +82,6 @@ const Design = () => {
           <h5>Stage four, durabilty and useability</h5>
           <br/>
           <h6>some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
-        </div>
-        <div class="design-links">
-          {/* <a href="/">A button</a> */}
-          {/* <img src="/" alt="/"></img> */}
         </div>
       </div>
     </div>

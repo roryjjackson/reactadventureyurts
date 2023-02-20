@@ -1,5 +1,8 @@
 import '../styles/components/ContactForm.css';
+import '../styles/components/Main.css';
 import React from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const ContactForm = () => {
   const [formStatus, setFormStatus] = React.useState('Send')
@@ -15,12 +18,20 @@ const ContactForm = () => {
     console.log(conFom)
   }
   return (
-    <div>
-      <div>
-        hi
+    <div class="xvc">
+      <div class="subheader4-container">
+        <h3 id="subheader4">Don't be shy, get in touch!</h3>
       </div>
-      <div className="container mt-5">
-        <h2 className="mb-3" id="subheader3">Get in touch</h2>
+    <div class="contact-form-container">
+      <div class="contact-form-socials">
+        {/* <h3>Follow us</h3> */}
+        <div class="socials-container">
+          < FontAwesomeIcon icon={faFacebook} class="socials-link" id="fb"></FontAwesomeIcon>
+          < FontAwesomeIcon icon={faInstagram} class="socials-link" id="insta"></FontAwesomeIcon>
+          < FontAwesomeIcon icon={faYoutube} class="socials-link" id="yt"></FontAwesomeIcon>
+        </div>
+      </div>
+      <div className="container m-5">
         <form onSubmit={onSubmit}>
           <div className="mb-3">
             <label className="form-label" htmlFor="name">
@@ -46,7 +57,7 @@ const ContactForm = () => {
         </form>
     </div>
     </div>
-
+    </div>
   )
 }
 export default ContactForm

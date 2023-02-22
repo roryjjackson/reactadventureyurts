@@ -1,5 +1,9 @@
-.section1 {
-  margin: 6vw 0 6vh 6vw;
+#section1 {
+  margin: 10vh 0 10vh 6vw;
+}
+
+#section2 {
+  display: none;
 }
 
 .top-section {
@@ -19,24 +23,13 @@
   overflow: hidden;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
   background-size: cover;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.22);
-}
-
-.div1 h3 {
-  position: absolute;
-  padding-right: 10px;
-  top: 10px;
-  left: 10px;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 22px;
-  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.42);
 }
 
 .div1 p {
   color: white;
   position: absolute;
-  bottom: 10px;
+  top: 10px;
   right: 10px;
   opacity: .7;
 }
@@ -54,25 +47,26 @@
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 }
 
 #upper-text h4 {
-  font-size: 1.6em;
-  font-weight: 400;
+  font-size: 2em;
   margin-bottom: 0;
+  text-align: left;
 }
 
 #upper-text p {
-  font-size: .7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: .8em;
+  text-align: left;
 }
 
 #mid-text {
-  font-weight: bold;
-  font-size: 2.5em;
-  margin: 5px;
+  padding-left: 20px;
+  font-weight: bolder;
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #lower-text {
@@ -82,15 +76,84 @@
 }
 
 #lower-text p {
-  font-size: .7em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: .8em;
   padding-right: 30px;
+  max-width: 160px;
+  text-align: left;
+}
+
+#lower-text h3 {
+  text-align: left;
+  font-size: 2em;
+  align-items: baseline;
+}
+
+@media only screen and (min-width: 431px) and (max-width: 950px) {
+  .div2 {
+    padding: 10px;
+  }
+
+  #upper-text {
+    padding: 10px;
+  }
+
+  #upper-text h4 {
+    font-size: 1.5em;
+  }
+
+  #mid-text {
+    padding-left: 10px;
+    font-size: 1.7em;
+  }
+
+  #lower-text {
+    padding: 10px;
+  }
+
+  #lower-text p {
+    font-size: .8em;
+  }
+
+  #lower-text h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 430px) {
+  .div2 {
+    padding: 10px;
+  }
+
+  #upper-text {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  #upper-text h4 {
+    font-size: 1em;
+    padding-right: 10px;
+  }
+
+  #mid-text {
+    padding-left: 10px;
+    font-size: 1.4em;
+  }
+
+  #lower-text {
+    padding: 10px;
+  }
+
+  #lower-text p {
+    font-size: .6em;
+  }
+
+  #lower-text h3 {
+    font-size: 1.2em;
+  }
 }
 
 .div3 {
-  background-color: #d4d7d6;
+  background-color: rgb(195, 195, 195);
   width: 40vw;
   height: 10vh;
   border-bottom-left-radius: 10px;
@@ -98,34 +161,78 @@
 
 .div4 {
   color: white;
-  box-shadow:
-    inset 60px 0 120px #080e00,
-    inset -60px 0 120px #346400;
+  background-image: linear-gradient(270deg,#08344e ,#293b30);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 10vh;
   width: 54vw;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.42);
 }
 
 .div4 h4 {
- text-decoration: underline;
+ display: flex;
+ justify-content: center;
+ margin-bottom: 0;
 }
 
 .prices {
-  background-color: rgb(25, 25, 25);
+  background-color: rgb(207, 207, 207);
   height: 150px;
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 
 #right-arrow {
-  padding-left: 10px;
-  font-size: 1.2em;
+  padding-left: 20px;
+  font-size: 1em;
 }
 
 #location-dot {
   padding-right: 10px;
+}
+
+.subheader-container {
+  padding: 50px 0;
+}
+
+.subheader4-container {
+  padding: 50px 0 0 50px;
+}
+
+#subheader1 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+#subheader2 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+#subheader3 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+}
+
+#subheader4 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4em;
+  text-align: left;
+}
+
+#image1 {
+  height: 500px;
+  width: 100vw;
+  object-fit: cover;
 }

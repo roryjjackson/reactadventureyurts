@@ -4,7 +4,7 @@ import '../styles/components/Table.css';
 function BasicExample() {
   return (
     <div class="table-container">
-      <Table striped bordered hover >
+      <Table striped bordered hover id="pricing-table">
         <thead>
           <tr>
             <th>Diameter</th>

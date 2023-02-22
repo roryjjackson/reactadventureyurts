@@ -31,17 +31,17 @@ const main = () => {
           <div class="div3">
           </div>
           <div class="div4">
-            <h4>Contact us <FontAwesomeIcon icon={faArrowRight} id="right-arrow"></FontAwesomeIcon></h4>
+            <a href="#contact"><h4>Contact us <FontAwesomeIcon icon={faArrowRight} id="right-arrow"></FontAwesomeIcon></h4></a>
           </div>
         </div>
       </div>
       < ControlledCarousel />
-      <div class="subheader-container">
+      <div id="design" class="subheader-container">
         <h2 id="subheader1">Our process timeline</h2>
         <p>Take a closer look at how we deliver the product</p>
       </div>
       < Design/>
-      <div class="subheader-container">
+      <div id="pricing" class="subheader-container">
         <h3 id="subheader2">Pricing</h3>
         <p>Our guideline pricing table</p>
       </div>

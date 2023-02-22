@@ -8,40 +8,40 @@ import { faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg
 const Header = () => {
     return (
         <nav>
-            <div className="header-container">
-                <div className="header-logo">
-                  <p>Adventure Yurts</p>
-                </div>
-                <ul className="header-items">
-                    <li>Home</li>
-                    <li>The Design</li>
-                    <li>Gallery</li>
-                    <li>Pricing</li>
-                    <li>Contact</li>
-                </ul>
+          <div id="top" className="header-container">
+            <div className="header-logo">
+              <p>Adventure Yurts</p>
             </div>
-            <div class="title-container">
-              <div class="title-block">
-                <div>
-                  <h1>Adventure Yurts</h1>
-                  <h2>Round, insulated and durable.</h2>
-                </div>
-                <div class="lets-go">
-                  <a id="lets-go-btn" href="/">Lets Go<FontAwesomeIcon icon={faArrowRight} id="right-arrow"></FontAwesomeIcon></a>
-                </div>
+            <ul className="header-items">
+              <a href="#top"><li>Home</li></a>
+              <a href="#design"><li>The Design</li></a>
+              <a href="#gallery"><li>Gallery</li></a>
+              <a href="#pricing"><li>Pricing</li></a>
+              <a href="#contact"><li>Contact</li></a>
+            </ul>
+          </div>
+          <div class="title-container">
+            <div class="title-block">
+              <div>
+                <h1>Adventure Yurts</h1>
+                <h2>Round, insulated and durable.</h2>
               </div>
-              <div class="slogan-container">
-                <div class="slogan-block">
-                  <p id="slogan">We build CAD designed yurts using commercial machinery.</p>
-                  <p>We build CAD designed yurts using commercial machinery.</p>
-                </div>
-                <div class="social-media-icons-container">
-                  <FontAwesomeIcon icon={faInstagram} class="social-media-icons"></FontAwesomeIcon>
-                  <FontAwesomeIcon icon={faFacebook} class="social-media-icons"></FontAwesomeIcon>
-                  <FontAwesomeIcon icon={faYoutube} class="social-media-icons"></FontAwesomeIcon>
-                </div>
+              <div class="lets-go">
+                <a id="lets-go-btn" href="/">Lets Go<FontAwesomeIcon icon={faArrowRight} id="right-arrow1"></FontAwesomeIcon></a>
               </div>
             </div>
+            <div class="slogan-container">
+              <div class="slogan-block">
+                <p id="slogan">We build CAD designed yurts using commercial machinery.</p>
+                <p>We build CAD designed yurts using commercial machinery.</p>
+              </div>
+              <div class="social-media-icons-container">
+                <FontAwesomeIcon icon={faInstagram} class="social-media-icons"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faFacebook} class="social-media-icons"></FontAwesomeIcon>
+                <FontAwesomeIcon icon={faYoutube} class="social-media-icons"></FontAwesomeIcon>
+              </div>
+            </div>
+          </div>
         </nav>
     )
 }

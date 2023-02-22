@@ -20,7 +20,6 @@
   width: 40vw;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
   overflow: hidden;
   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
   background-size: cover;
@@ -89,7 +88,72 @@
   align-items: baseline;
 }
 
+@media only screen and (min-width: 431px) and (max-width: 950px) {
+  .div2 {
+    padding: 10px;
+  }
+
+  #upper-text {
+    padding: 10px;
+  }
+
+  #upper-text h4 {
+    font-size: 1.5em;
+  }
+
+  #mid-text {
+    padding-left: 10px;
+    font-size: 1.7em;
+  }
+
+  #lower-text {
+    padding: 10px;
+  }
+
+  #lower-text p {
+    font-size: .8em;
+  }
+
+  #lower-text h3 {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1px) and (max-width: 430px) {
+  .div2 {
+    padding: 10px;
+  }
+
+  #upper-text {
+    padding: 10px;
+    font-size: 1.2em;
+  }
+
+  #upper-text h4 {
+    font-size: 1em;
+    padding-right: 10px;
+  }
+
+  #mid-text {
+    padding-left: 10px;
+    font-size: 1.4em;
+  }
+
+  #lower-text {
+    padding: 10px;
+  }
+
+  #lower-text p {
+    font-size: .6em;
+  }
+
+  #lower-text h3 {
+    font-size: 1.2em;
+  }
+}
+
 .div3 {
+  background-color: rgb(195, 195, 195);
   width: 40vw;
   height: 10vh;
   border-bottom-left-radius: 10px;
@@ -104,7 +168,6 @@
   height: 10vh;
   width: 54vw;
   box-shadow: 0 5px 10px rgba(0,0,0,0.42);
-  border-bottom-left-radius: 10px;
 }
 
 .div4 h4 {

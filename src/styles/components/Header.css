@@ -112,3 +112,42 @@ nav {
   border-radius: 50%;
   opacity: .7;
 }
+
+@media only screen and (min-width: 1px) and (max-width: 750px) {
+  .header-container {
+    display: none;
+  }
+
+  .title-container {
+    padding: 20px 20px 20px 0;
+  }
+
+  #lets-go-btn {
+    display: none;
+  }
+
+  #right-arrow1 {
+    padding-left: 5px;
+    font-size: .8em;
+  }
+
+  .social-media-icons {
+    margin: 5px;
+    padding: 5px;
+    height: 30px;
+    width: 30px;
+    display: none;
+  }
+
+  .slogan-container {
+    position: static;
+  }
+
+  .slogan-container p {
+    font-size: .7em;
+  }
+
+  .title-block h2 {
+    padding: 30px;
+  }
+}

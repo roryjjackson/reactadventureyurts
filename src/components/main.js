@@ -1,4 +1,3 @@
-import Design from './design';
 import ControlledCarousel from './gallery';
 import '../styles/components/Main.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,7 +41,6 @@ const main = () => {
         <h2 id="subheader1">Our process timeline</h2>
         <p>Take a closer look at how we deliver the product</p>
       </div>
-      {/* < Design/> */}
       <div id="pricing" class="subheader-container">
         <h3 id="subheader2">Pricing</h3>
         <p>Our guideline pricing table</p>

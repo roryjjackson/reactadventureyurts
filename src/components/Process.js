@@ -7,6 +7,8 @@ export default function Process() {
   const [isDiv2, setIsDiv2] = useState(false);
   const [isDiv3, setIsDiv3] = useState(false);
   const [isDiv4, setIsDiv4] = useState(false);
+  const [isShowingPhoto, setIsShowingPhoto] = useState(false);
+  const [isShowingOverview, setIsShowingOverview] = useState(true)
 
   const handleClick1 = event => {
     // 👇️ toggle visibility
@@ -37,6 +39,11 @@ export default function Process() {
     setIsDiv3(current => false);
     setIsDiv4(current => true);
   };
+
+  const handleClick5 = event => {
+    setIsShowingPhoto(current => !current);
+    setIsShowingOverview(current => !current);
+  }
 
   return (
     <div class="design-container">
@@ -79,10 +86,10 @@ export default function Process() {
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Gallery</h4>
+              <h4>Photos</h4>
             </div>
             <div class="design-data">
-              <h5 id="stage-header">Stage one hehe, the CAD design</h5>
+              <h5 id="stage-header">Stage one, the CAD design</h5>
               <br/>
               <h6 id="stage-data">some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
             </div>
@@ -92,10 +99,10 @@ export default function Process() {
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Gallery</h4>
+              <h4>Photos</h4>
             </div>
             <div class="design-data">
-              <h5 id="stage-header">Stage two hehe, the CAD design</h5>
+              <h5 id="stage-header">Stage two, CNC machine?</h5>
               <br/>
               <h6 id="stage-data">some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
             </div>
@@ -105,10 +112,10 @@ export default function Process() {
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Gallery</h4>
+              <h4>Photos</h4>
             </div>
             <div class="design-data">
-              <h5 id="stage-header">Stage three hehe, the CAD design</h5>
+              <h5 id="stage-header">Stage three, construction with foam?</h5>
               <br/>
               <h6 id="stage-data">some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
             </div>
@@ -118,10 +125,10 @@ export default function Process() {
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Gallery</h4>
+              <h4>Photos</h4>
             </div>
             <div class="design-data">
-              <h5 id="stage-header">Stage four hehe, the CAD design</h5>
+              <h5 id="stage-header">Stage four, delivery and on-site construction</h5>
               <br/>
               <h6 id="stage-data">some text explaining what is going on in each stage, so that we can vread about whats happening at each point in thue build</h6>
             </div>

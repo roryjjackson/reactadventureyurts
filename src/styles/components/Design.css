@@ -15,8 +15,18 @@
   display: flex;
   align-items: center;
   margin: 10px 0;
+}
+
+#stage1 {
   border-bottom: solid rgba(255, 255, 255, 0.217) 1px;
 }
+#stage2 {
+  border-bottom: solid rgba(255, 255, 255, 0.217) 1px;
+}
+#stage3 {
+  border-bottom: solid rgba(255, 255, 255, 0.217) 1px;
+}
+
 
 #design-list-item4 {
   border-bottom: none !important;

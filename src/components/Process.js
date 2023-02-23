@@ -41,34 +41,38 @@ export default function Process() {
   return (
     <div class="design-container">
       <div class="design-list">
-        <div class="design-list-item">
-          <button onClick={handleClick1} class="number-icon" id="stage1">01.</button>
-          <div class="design-list-info">
-            <h3>Stage One</h3>
-            <p>This happens</p>
+        <button onClick={handleClick1} class="design-list-item" id="stage1">
+          <div style={{backgroundColor: isDiv1 ? 'rgba(255, 255, 255, 0.1)' : 'transparent'}} class="design-list-item">
+            <div class="design-list-info">
+              <h3>Stage One</h3>
+              <p>This happens</p>
+            </div>
           </div>
-        </div>
-        <div class="design-list-item">
-          <button onClick={handleClick2} class="number-icon" id="stage2">02.</button>
-          <div class="design-list-info">
-            <h3>Stage Two</h3>
-            <p>This happens</p>
+        </button>
+        <button onClick={handleClick2} class="design-list-item" id="stage2">
+          <div style={{backgroundColor: isDiv2 ? 'rgba(255, 255, 255, 0.1)' : 'transparent'}} class="design-list-item">
+            <div class="design-list-info">
+              <h3>Stage Two</h3>
+              <p>This happens</p>
+            </div>
           </div>
-        </div>
-        <div class="design-list-item">
-          <button  onClick={handleClick3} class="number-icon" id="stage3">03.</button>
-          <div class="design-list-info">
-            <h3>Stage Three</h3>
-            <p>This happens</p>
+        </button>
+        <button  onClick={handleClick3} class="design-list-item" id="stage3">
+          <div style={{backgroundColor: isDiv3 ? 'rgba(255, 255, 255, 0.1)' : 'transparent'}} class="design-list-item">
+            <div class="design-list-info">
+              <h3>Stage Three</h3>
+              <p>This happens</p>
+            </div>
           </div>
-        </div>
-        <div class="design-list-item" id="design-list-item4">
-          <button onClick={handleClick4} class="number-icon" id="stage4">04.</button>
-          <div class="design-list-info">
-            <h3>Stage Four</h3>
-            <p>This happens</p>
+        </button>
+        <button onClick={handleClick4} class="design-list-item" id="stage4">
+          <div style={{backgroundColor: isDiv4 ? 'rgba(255, 255, 255, 0.1)' : 'transparent'}} class="design-list-item" id="design-list-item4">
+            <div class="design-list-info">
+              <h3>Stage Four</h3>
+              <p>This happens</p>
+            </div>
           </div>
-        </div>
+        </button>
       </div>
       <div>
         <div style={{display: isDiv1 ? 'flex' : 'none'}}>

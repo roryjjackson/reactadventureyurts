@@ -6,36 +6,36 @@ import '../styles/Globals.css';
 const Design = () => {
 
   return (
-    //       <div class="design-list">
-    //         <div class="design-list-item">
-    //           <button  class="number-icon" id="stage1">01.</button>
-    //           <div class="design-list-info">
-    //             <h3>Stage One</h3>
-    //             <p>This happens</p>
-    //           </div>
-    //         </div>
-    //         <div class="design-list-item">
-    //           <button  class="number-icon" id="stage2">02.</button>
-    //           <div class="design-list-info">
-    //             <h3>Stage Two</h3>
-    //             <p>This happens</p>
-    //           </div>
-    //         </div>
-    //         <div class="design-list-item">
-    //           <button  class="number-icon" id="stage3">03.</button>
-    //           <div class="design-list-info">
-    //             <h3>Stage Three</h3>
-    //             <p>This happens</p>
-    //           </div>
-    //         </div>
-    //         <div class="design-list-item" id="design-list-item4">
-    //           <button  class="number-icon" id="stage4">04.</button>
-    //           <div class="design-list-info">
-    //             <h3>Stage Four</h3>
-    //             <p>This happens</p>
-    //           </div>
-    //         </div>
-    //       </div>
+          // <div class="design-list">
+          //   <div class="design-list-item">
+          //     <button  class="number-icon" id="stage1">01.</button>
+          //     <div class="design-list-info">
+          //       <h3>Stage One</h3>
+          //       <p>This happens</p>
+          //     </div>
+          //   </div>
+          //   <div class="design-list-item">
+          //     <button  class="number-icon" id="stage2">02.</button>
+          //     <div class="design-list-info">
+          //       <h3>Stage Two</h3>
+          //       <p>This happens</p>
+          //     </div>
+          //   </div>
+          //   <div class="design-list-item">
+          //     <button  class="number-icon" id="stage3">03.</button>
+          //     <div class="design-list-info">
+          //       <h3>Stage Three</h3>
+          //       <p>This happens</p>
+          //     </div>
+          //   </div>
+          //   <div class="design-list-item" id="design-list-item4">
+          //     <button  class="number-icon" id="stage4">04.</button>
+          //     <div class="design-list-info">
+          //       <h3>Stage Four</h3>
+          //       <p>This happens</p>
+          //     </div>
+          //   </div>
+          // </div>
   <div class="design-container">
     <div class="design-info" id="design-info1">
           <div class="design-header">

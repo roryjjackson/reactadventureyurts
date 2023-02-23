@@ -64,6 +64,7 @@ th {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 @media only screen and (min-width: 1px) and (max-width: 750px) {
   h1 {
     font-size: 3em !important;

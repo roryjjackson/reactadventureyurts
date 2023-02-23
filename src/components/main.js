@@ -35,12 +35,12 @@ const main = () => {
           </div>
         </div>
       </div>
-      < Process />
       < ControlledCarousel />
       <div id="design" class="subheader-container">
         <h2 id="subheader1">Our process timeline</h2>
         <p>Take a closer look at how we deliver the product</p>
       </div>
+      < Process />
       <div id="pricing" class="subheader-container">
         <h3 id="subheader2">Pricing</h3>
         <p>Our guideline pricing table</p>

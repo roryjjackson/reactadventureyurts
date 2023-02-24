@@ -53,7 +53,7 @@ const main = () => {
       < BasicExample />
       <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
       < ContactForm/>
-      <ContactUs />
+      {/* <ContactUs /> */}
     </div>
   )
 }

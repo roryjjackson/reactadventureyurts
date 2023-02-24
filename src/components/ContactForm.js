@@ -1,22 +1,26 @@
 import '../styles/components/ContactForm.css';
 import '../styles/components/Main.css';
-import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
-  const [formStatus, setFormStatus] = React.useState('Send')
-  const onSubmit = (e) => {
-    e.preventDefault()
-    setFormStatus('Submitting...')
-    const { name, email, message } = e.target.elements
-    let conFom = {
-      name: name.value,
-      email: email.value,
-      message: message.value,
-    }
-    console.log(conFom)
-  }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_USER_ID)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset();
+  };
+
   return (
     <div id="contact" class="get-in-touch">
       <div class="subheader4-container">
@@ -31,27 +35,27 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="container m-5">
-          <form onSubmit={onSubmit}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="mb-3">
-              <label className="form-label" htmlFor="name">
+              <label className="form-label">
                 Name
               </label>
-              <input className="form-control" type="text" id="name" required />
+              <input className="form-control" type="text" id="name" name="user_name" required />
             </div>
             <div className="mb-3">
-              <label className="form-label" htmlFor="email">
+              <label className="form-label">
                 Email
               </label>
-              <input className="form-control" type="email" id="email" required />
+              <input className="form-control" type="email" id="email" name="user_email" required />
             </div>
             <div className="mb-3">
-              <label className="form-label" htmlFor="message">
+              <label className="form-label">
                 Message
               </label>
-              <textarea className="form-control" id="message" required />
+              <textarea className="form-control" id="message" name="message" required />
             </div>
-            <button className="btn btn-danger" type="submit">
-              {formStatus}
+            <button className="btn btn-danger" type="submit" value="send">
+              Submit
             </button>
           </form>
         </div>

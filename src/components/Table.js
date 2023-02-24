@@ -1,5 +1,6 @@
 import Table from 'react-bootstrap/Table';
 import '../styles/components/Table.css';
+import React from 'react';
 
 function BasicExample() {
   return (

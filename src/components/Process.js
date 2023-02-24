@@ -1,14 +1,16 @@
 import {useState} from 'react';
 import '../styles/components/Design.css';
 import '../styles/Globals.css';
+import React from 'react';
+
 
 export default function Process() {
   const [isDiv1, setIsDiv1] = useState(true);
   const [isDiv2, setIsDiv2] = useState(false);
   const [isDiv3, setIsDiv3] = useState(false);
   const [isDiv4, setIsDiv4] = useState(false);
-  const [isShowingPhoto, setIsShowingPhoto] = useState(false);
-  const [isShowingOverview, setIsShowingOverview] = useState(true)
+  // const [isShowingPhoto, setIsShowingPhoto] = useState(false);
+  // const [isShowingOverview, setIsShowingOverview] = useState(true)
 
   const handleClick1 = event => {
     // 👇️ toggle visibility
@@ -40,10 +42,10 @@ export default function Process() {
     setIsDiv4(current => true);
   };
 
-  const handleClick5 = event => {
-    setIsShowingPhoto(current => !current);
-    setIsShowingOverview(current => !current);
-  }
+  // const handleClick5 = event => {
+  //   setIsShowingPhoto(current => !current);
+  //   setIsShowingOverview(current => !current);
+  // }
 
   return (
     <div class="design-container">

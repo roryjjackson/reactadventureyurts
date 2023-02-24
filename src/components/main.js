@@ -5,11 +5,10 @@ import { faArrowRight, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './ContactForm';
 import BasicExample from './Table';
 import Process from './Process';
-import ContactUs from './Contact';
 import React from 'react';
 
-
 const main = () => {
+
   return (
     <div>
       <div id="section1">
@@ -53,7 +52,6 @@ const main = () => {
       < BasicExample />
       <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
       < ContactForm/>
-      {/* <ContactUs /> */}
     </div>
   )
 }

@@ -4,9 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faYoutube } from "@fortawesome/free-brands-svg-icons";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Popup from './Popup';
+import { useState } from 'react';
 
 const ContactForm = () => {
+  const [buttonPopup, setButtonPopup] = useState(false)
+
   const form = useRef();
+
+  // var myForm = document.getElementById("myForm");
+  // myForm.reset();
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -35,7 +42,10 @@ const ContactForm = () => {
           </div>
         </div>
         <div className="container m-5">
-          <form ref={form} onSubmit={sendEmail}>
+          <form id="myForm" ref={form} onSubmit={ e => {
+            sendEmail(e);
+            setButtonPopup(true);
+          }}>
             <div className="mb-3">
               <label className="form-label">
                 Name
@@ -60,6 +70,10 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
+      <Popup trigger={buttonPopup} setTrigger={setButtonPopup} >
+        <h2>Thanks for getting in touch, we'll get back to you as soon as possible!
+        </h2>
+      </Popup>
     </div>
   )
 }

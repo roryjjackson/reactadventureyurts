@@ -5,6 +5,7 @@ import '../styles/Globals.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import BasicButtonExample from './Dropdown';
 
 const Header = () => {
     return (
@@ -21,6 +22,7 @@ const Header = () => {
               <a href="#contact"><li>Contact</li></a>
             </ul>
           </div>
+          < BasicButtonExample />
           <div class="title-container">
             <div class="title-block">
               <div>

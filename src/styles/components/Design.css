@@ -52,7 +52,7 @@
   margin-bottom: 0;
   margin-top: 8px;
   text-align: left;
-  color: black;
+  color: rgba(255, 255, 255, 0.645);
 }
 
 .design-list-info h3 {
@@ -121,13 +121,20 @@
   }
 
   .design-list-item {
-    font-size: .9em;
-    height: 80px;
-    padding: 10px;
+    font-size: .8em;
+    height: 100px;
   }
 
   .design-list-info {
     padding: 5px;
+  }
+
+  .design-list-info h3 {
+    text-align: center ;
+  }
+
+  .design-list-info p {
+    text-align: center ;
   }
 
   .design-header {
@@ -140,5 +147,9 @@
 
   .design-data h5 h6 {
     font-size: 1em;
+  }
+
+  #image1 {
+    height: 200px;
   }
 }

@@ -84,11 +84,11 @@ export default function Process() {
         </button>
       </div>
       <div>
-        <div style={{display: isDiv1 ? 'flex' : 'none'}}>
+        <div class="design-overview-container" style={{display: isDiv1 ? 'flex' : 'none'}}>
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Photos</h4>
+              {/* <h4>Photos</h4> */}
             </div>
             <div class="design-data">
               <h5 id="stage-header">Stage one, the CAD design</h5>
@@ -97,11 +97,11 @@ export default function Process() {
             </div>
           </div>
         </div>
-        <div style={{display: isDiv2 ? 'flex' : 'none'}}>
+        <div class="design-overview-container" style={{display: isDiv2 ? 'flex' : 'none'}}>
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Photos</h4>
+              {/* <h4>Photos</h4> */}
             </div>
             <div class="design-data">
               <h5 id="stage-header">Stage two, CNC machine?</h5>
@@ -110,11 +110,11 @@ export default function Process() {
             </div>
           </div>
         </div>
-        <div style={{display: isDiv3 ? 'flex' : 'none'}}>
+        <div class="design-overview-container" style={{display: isDiv3 ? 'flex' : 'none'}}>
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Photos</h4>
+              {/* <h4>Photos</h4> */}
             </div>
             <div class="design-data">
               <h5 id="stage-header">Stage three, construction with foam?</h5>
@@ -123,11 +123,11 @@ export default function Process() {
             </div>
           </div>
         </div>
-        <div style={{display: isDiv4 ? 'flex' : 'none'}}>
+        <div class="design-overview-container" style={{display: isDiv4 ? 'flex' : 'none'}}>
           <div class="design-info" id="design-info1">
             <div class="design-header">
               <h4>Overview</h4>
-              <h4>Photos</h4>
+              {/* <h4>Photos</h4> */}
             </div>
             <div class="design-data">
               <h5 id="stage-header">Stage four, delivery and on-site construction</h5>

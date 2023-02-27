@@ -88,9 +88,42 @@
   border-radius: 0 0 10px 10px;
 }
 
-@media only screen and (min-width: 1px) and (max-width: 430px) {
+@media only screen and (min-width: 1px) and (max-width: 630px) {
+  .design-container {
+    display: block;
+    padding: 0;
+  }
+
+  .design-list {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid rgba(255, 255, 255, 0.217) 1px;
+  }
+
+  #stage1 {
+    border-bottom: none;
+  }
+  #stage2 {
+    border-bottom: none;
+  }
+  #stage3 {
+    border-bottom: none;
+  }
+
+  .design-data {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .design-info {
+    width: 100vw;
+    padding: 40px;
+  }
+
   .design-list-item {
-    font-size: .7em;
+    font-size: .9em;
+    height: 80px;
+    padding: 10px;
   }
 
   .design-list-info {

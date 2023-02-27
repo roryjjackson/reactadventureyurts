@@ -29,6 +29,9 @@ const main = () => {
               </div>
             </div>
           </div>
+          <div class="div1-second">
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
+          </div>
         </div>
         <div class="bottom-section">
           <div class="div3">

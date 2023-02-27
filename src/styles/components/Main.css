@@ -143,6 +143,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
     background-size: cover;
     box-shadow: 0 5px 10px rgba(0,0,0,0.42);
+    position: relative;
   }
 
   .div1-second p {
@@ -246,6 +247,10 @@
 
 .subheader4-container {
   padding: 50px 0 0 50px;
+}
+
+.subheader-container p {
+  padding: 0 5px;
 }
 
 #subheader1 {

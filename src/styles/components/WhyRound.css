@@ -1,0 +1,24 @@
+.whyround-container {
+  display: flex;
+  border-top: solid rgba(0, 0, 0, 0.33) 1px;
+  width: 80vw;
+  padding-top: 40px;
+  margin: 40px auto;
+}
+
+.whyround-left {
+  width: 50%;
+}
+
+.whyround-right {
+  width: 50%;
+}
+
+#subheader5 {
+  background: -webkit-linear-gradient(right , rgb(142, 142, 142), rgb(0, 0, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}

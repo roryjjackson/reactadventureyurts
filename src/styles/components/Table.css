@@ -3,9 +3,20 @@
   overflow: hidden;
 }
 
-/* .table {
-  max-width: 300px;
-} */
+#spec-h5 {
+  margin-top: 20px;
+}
+
+#extras-btn {
+  margin: 30px auto 0 auto;
+  color: white;
+  border: solid 5px transparent;
+  background: linear-gradient(rgb(34, 34, 34), rgb(42, 42, 42)) padding-box,
+  linear-gradient(to right, #e2ba50, #dcc585) border-box;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 @media only screen and (min-width: 1px) and (max-width: 750px) {
   thead {

@@ -8,33 +8,29 @@ function BasicExample() {
       <Table striped bordered hover id="pricing-table">
         <thead>
           <tr>
+            <th>Product</th>
             <th>Diameter</th>
-            <th>Finish</th>
-            <th>Style</th>
-            <th>Estimated cost</th>
+            <th>Spec</th>
+            <th>Cost</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>4</td>
-            <td>Standard</td>
-            <td>Classic</td>
-            <td>£12000</td>
+            <td>Basic wooden yurt</td>
+            <td>4m</td>
+            <td>See here</td>
+            <td>£9995 +VAT</td>
           </tr>
           <tr>
-            <td>5</td>
-            <td>Standard</td>
-            <td>Modern</td>
-            <td>£15999</td>
-          </tr>
-          <tr>
-            <td>10</td>
-            <td>Normal</td>
-            <td>Contemporary</td>
-            <td>£29995</td>
+            <td>Structural base</td>
+            <td>4.2m</td>
+            <td>See here</td>
+            <td>£29995 +VAT</td>
           </tr>
         </tbody>
       </Table>
+      <h5 id="spec-h5" >For the full specification, please click below</h5>
+      <button id="extras-btn">Specification</button>
     </div>
   );
 }

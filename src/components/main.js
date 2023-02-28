@@ -6,6 +6,7 @@ import ContactForm from './ContactForm';
 import BasicExample from './Table';
 import Process from './Process';
 import React from 'react';
+import WhyRound from './WhyRound';
 
 const main = () => {
 
@@ -54,6 +55,7 @@ const main = () => {
 
       < BasicExample />
       <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
+      < WhyRound />
       < ContactForm/>
     </div>
   )

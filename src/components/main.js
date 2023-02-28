@@ -19,13 +19,13 @@ const main = () => {
           <div class="div2">
             <div>
               <div id="upper-text">
-                <h4>Perfectly round,</h4>
-                <p>CAD designed wooden yurt</p>
+                <h4>Perfectly round wooden yurts,</h4>
+                <p>Fully customizable to any finish.</p>
               </div>
-              <h4 id="mid-text">FAMILY RUN BUSINESS</h4>
+              <h4 id="mid-text">Highest quality build, combining the accuracy of CNC machining with hand assembly and finishing</h4>
               <div id="lower-text">
-                <p>Fully customizable, unique outdoor living</p>
-                <h3>Escape the house</h3>
+                <p>Small Family run North east business</p>
+                <h3>Escape the house into the outdoors</h3>
               </div>
             </div>
           </div>

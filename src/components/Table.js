@@ -25,7 +25,7 @@ function BasicExample() {
             <td>Structural base</td>
             <td>4.2m</td>
             <td>See here</td>
-            <td>£29995 +VAT</td>
+            <td>£2995 +VAT</td>
           </tr>
         </tbody>
       </Table>

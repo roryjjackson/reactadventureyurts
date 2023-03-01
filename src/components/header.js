@@ -27,7 +27,7 @@ const Header = () => {
             <div class="title-block">
               <div>
                 <h1>Adventure Yurts</h1>
-                <h2>Round, insulated and durable.</h2>
+                <h2>All wood construction, highly engineered, super insulated</h2>
               </div>
               <div class="lets-go">
                 <a id="lets-go-btn" href="/">Lets Go<FontAwesomeIcon icon={faArrowRight} id="right-arrow1"></FontAwesomeIcon></a>
@@ -35,8 +35,8 @@ const Header = () => {
             </div>
             <div class="slogan-container">
               <div class="slogan-block">
-                <p id="slogan">We build CAD designed yurts using commercial machinery.</p>
-                <p>We build CAD designed yurts using commercial machinery.</p>
+                <p id="slogan">We build CAD wooden yurts to use all year round</p>
+                <p>Modular design can be self assembled in remote places</p>
               </div>
               <div class="social-media-icons-container">
                 <FontAwesomeIcon icon={faInstagram} class="social-media-icons"></FontAwesomeIcon>

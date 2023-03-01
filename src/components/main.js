@@ -6,6 +6,7 @@ import ContactForm from './ContactForm';
 import BasicExample from './Table';
 import Process from './Process';
 import React from 'react';
+import WhyRound from './WhyRound';
 
 const main = () => {
 
@@ -14,23 +15,23 @@ const main = () => {
       <div id="section1">
         <div class="top-section">
           <div class="div1">
-            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Under construction, North East</p>
           </div>
           <div class="div2">
             <div>
               <div id="upper-text">
-                <h4>Perfectly round,</h4>
-                <p>CAD designed wooden yurt</p>
+                <h4>Perfectly round wooden yurts,</h4>
+                <p>Fully customizable to any finish.</p>
               </div>
-              <h4 id="mid-text">FAMILY RUN BUSINESS</h4>
+              <h4 id="mid-text">Highest quality build, combining the accuracy of CNC machining with hand assembly and finishing</h4>
               <div id="lower-text">
-                <p>Fully customizable, unique outdoor living</p>
-                <h3>Escape the house</h3>
+                <p>Small Family run North east business</p>
+                <h3>Escape the house into the outdoors</h3>
               </div>
             </div>
           </div>
           <div class="div1-second">
-            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Under construction, North East</p>
           </div>
         </div>
         <div class="bottom-section">
@@ -53,7 +54,8 @@ const main = () => {
       </div>
 
       < BasicExample />
-      <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
+      <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg" alt="" id="image1"></img>
+      < WhyRound />
       < ContactForm/>
     </div>
   )

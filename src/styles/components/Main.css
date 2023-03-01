@@ -17,7 +17,7 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   overflow: hidden;
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1675731943/pexels-geoff-duke-365717_hftrjq.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1677667786/pexels-thijs-van-der-weide-1094770_mresye.jpg);
   background-size: cover;
   box-shadow: 0 5px 10px rgba(0,0,0,0.42);
 }
@@ -51,7 +51,7 @@
 }
 
 #upper-text h4 {
-  font-size: 2em;
+  font-size: 1.7em;
   margin-bottom: 0;
   text-align: left;
 }
@@ -64,7 +64,7 @@
 #mid-text {
   padding-left: 20px;
   font-weight: bolder;
-  font-size: 3em;
+  font-size: 2em;
   text-align: left;
   font-family: 'Montserrat', sans-serif;
 }
@@ -84,8 +84,30 @@
 
 #lower-text h3 {
   text-align: left;
-  font-size: 2em;
+  font-size: 1.7em;
   align-items: baseline;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1200px) {
+  #upper-text h4 {
+    font-size: 1.3em;
+  }
+
+  #upper-text p {
+    font-size: .8em;
+  }
+
+  #mid-text {
+    font-size: 1.5em;
+  }
+
+  #lower-text p {
+    font-size: .8em;
+  }
+
+  #lower-text h3 {
+    font-size: 1.2em;
+  }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 750px) {
@@ -98,12 +120,12 @@
   }
 
   #upper-text h4 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 
   #mid-text {
     padding-left: 10px;
-    font-size: 1.7em;
+    font-size: 1.4em;
   }
 
   #lower-text {
@@ -115,7 +137,7 @@
   }
 
   #lower-text h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
   }
 }
 

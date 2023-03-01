@@ -24,7 +24,7 @@
 }
 
 nav {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.115)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45),rgba(0, 0, 0, 0.355)), url(https://res.cloudinary.com/dfipoufmj/image/upload/v1677667011/pexels-cottonbro-studio-7480243_wq6ndj.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -67,12 +67,11 @@ nav {
 }
 
 .title-container h1 {
-  padding: 10px 0 10px 30px;
+  padding: 10px 0 20px 30px;
   text-align: left;
 }
 
 .title-container h2 {
-  color: white;
   font-size: 3.5em;
   text-align: left;
   padding: 10px 0 30px 30px;
@@ -111,6 +110,10 @@ nav {
   border: solid white 1px;
   border-radius: 50%;
   opacity: .7;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
 }
 
 @media only screen and (min-width: 451px) and (max-width: 700px) {

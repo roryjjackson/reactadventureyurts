@@ -21,11 +21,14 @@
 
 .popup-inner .close-btn {
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 10px;
+  right: 10px;
   color: white;
   background-color: black;
-  border: solid #e2ba50 3px;
-  border-radius: 10%;
+  border: solid 2px transparent;
   font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(rgb(34, 34, 34), rgb(42, 42, 42)) padding-box,
+              linear-gradient(to right, #e2ba50, #dcc585) border-box;
+  border-radius: 10px;
+  padding: 5px;
 }

@@ -37,3 +37,26 @@
 .whyround-popup-container {
   color: rgb(220, 220, 220);
 }
+
+@media only screen and (min-width: 1px) and (max-width: 500px) {
+  .whyround-container {
+    display: block;
+    border-top: solid rgba(0, 0, 0, 0.33) 1px;
+    width: 80vw;
+    padding-top: 40px;
+    margin: 40px auto;
+  }
+
+  .whyround-left {
+    width: 100%;
+  }
+
+  .whyround-right {
+    width: 100%;
+  }
+
+#subheader5 {
+  text-align: center;
+  padding-bottom: 40px;
+}
+}

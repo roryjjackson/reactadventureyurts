@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Karma&family=Montserrat:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karma&family=Montserrat:wght@400;600;700;800;900&display=swap');
 
 .App {
   background-color: #e3e3e3;
@@ -9,16 +9,17 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 6em !important;
-  font-weight: bold;
+  font-weight: 600 !important;
   font-family: 'Montserrat', sans-serif;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
-  background: -webkit-linear-gradient(right , rgb(241, 241, 241), rgb(211, 211, 211));
+  background: -webkit-linear-gradient(right , rgba(255, 255, 255, 0.8), rgb(255, 255, 255, 0.8));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* text-shadow: 1px 1px rgba(0, 0, 0, 0.768); */
 }
 
 h3 {

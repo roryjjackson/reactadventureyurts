@@ -15,7 +15,7 @@ const main = () => {
       <div id="section1">
         <div class="top-section">
           <div class="div1">
-            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Under construction, North East</p>
           </div>
           <div class="div2">
             <div>
@@ -31,7 +31,7 @@ const main = () => {
             </div>
           </div>
           <div class="div1-second">
-            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Millenium bridge, North East</p>
+            <p>< FontAwesomeIcon icon={faLocationDot} id="location-dot"></FontAwesomeIcon>Under construction, North East</p>
           </div>
         </div>
         <div class="bottom-section">
@@ -54,7 +54,7 @@ const main = () => {
       </div>
 
       < BasicExample />
-      <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1669281725/pexels-kelly-13766418_etqld7.jpg" alt="" id="image1"></img>
+      <img src="https://res.cloudinary.com/dfipoufmj/image/upload/v1677670035/pexels-oleksandr-pidvalnyi-345522_mbe3vi.jpg" alt="" id="image1"></img>
       < WhyRound />
       < ContactForm/>
     </div>

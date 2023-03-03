@@ -12,6 +12,13 @@ const main = () => {
 
   return (
     <div>
+      <div id="who-we-are" class="subheader-container">
+        <h2 id="subheader1">Who we are</h2>
+        <br />
+        <p>Write a sentence or two here about who we are and what we are trying to do?</p>
+        <button className="button">Read more</button>
+        {/* <p>Our story</p> */}
+      </div>
       <div id="section1">
         <div class="top-section">
           <div class="div1">
